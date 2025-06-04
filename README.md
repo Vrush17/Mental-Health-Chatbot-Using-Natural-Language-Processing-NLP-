@@ -9,7 +9,8 @@ KEYWORDS: Mental Health, Chatbot, Natural Language Processing, Sentiment Analysi
 Artificial Intelligence (AI) and Natural Language Processing (NLP) are revolutionizing the way machines interact with humans, opening new avenues for creating intelligent conversational agents. This project delves into developing a sophisticated mental health chatbot that leverages the capabilities of deep learning for multiclass text classification.
 Unlike generative dialogue systems that create responses word-by-word, the focus of this project is on classification-based response selection. The chatbot does not generate new sentences; instead, it intelligently chooses the best predefined response class that aligns with the user's input. This approach offers greater control, safety, and reliability critical factors when dealing with sensitive subjects like emotional distress and mental well-being.
 The backbone of this system is a Long Short-Term Memory (LSTM) neural network, chosen for its proven ability to handle sequential data and retain contextual information across long dependencies. The model benefits further from semantic richness by integrating pretrained Word2Vec embeddings, which capture the meanings of words based on their usage in large corpora.
-The objectives of the project are:
+
+# 3. The objectives of the project are:
 • To build a natural language understanding model capable of accurately classifying user inputs into intent categories.
 • To implement thorough data preprocessing techniques including tokenization, sequence padding, and semantic embedding.
 • To address dataset imbalance through exploratory data analysis (EDA) and augmentation methods.
